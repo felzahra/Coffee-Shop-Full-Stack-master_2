@@ -30,10 +30,10 @@ def db_drop_and_create_all():
     db.create_all()
 
 
-def db_rollback():
+def db_roll_back():
     db.session.rollback()
 
-def db_close_session():
+def db_session_close():
     db.session.close()
 
 '''
